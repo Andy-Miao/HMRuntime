@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMMessageViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="eUu-2q-bcV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zE9-nb-krc">
+                    <rect key="frame" x="0.0" y="182" width="414" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="字典key和模型属性不匹配(模型属性数量&gt;字典键值对数)"/>
+                    <connections>
+                        <action selector="modelToDic:" destination="-1" eventType="touchUpInside" id="Ehs-ks-6T4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzU-Lk-1Sc">
+                    <rect key="frame" x="0.0" y="261" width="414" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="模型中嵌套模型「模型属性是另外一个模型对象」"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="runtime 字典转模型三种情况" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-Xe-j4k">
+                    <rect key="frame" x="0.0" y="108" width="414" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANT-Vq-2Ru">
+                    <rect key="frame" x="0.0" y="347" width="414" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="数组中装着模型(模型属性是数组，数组中是字典模型对象)"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ANT-Vq-2Ru" secondAttribute="trailing" id="0WE-VD-d4Q"/>
+                <constraint firstItem="wzU-Lk-1Sc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1vG-gm-gWO"/>
+                <constraint firstItem="ANT-Vq-2Ru" firstAttribute="top" secondItem="wzU-Lk-1Sc" secondAttribute="bottom" constant="57" id="DVZ-bp-trv"/>
+                <constraint firstItem="wzU-Lk-1Sc" firstAttribute="top" secondItem="zE9-nb-krc" secondAttribute="bottom" constant="50" id="F8y-cx-doj"/>
+                <constraint firstItem="zE9-nb-krc" firstAttribute="top" secondItem="bj1-Xe-j4k" secondAttribute="bottom" constant="50" id="I59-et-SzX"/>
+                <constraint firstItem="ANT-Vq-2Ru" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="S5K-bz-pUS"/>
+                <constraint firstItem="zE9-nb-krc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Tl6-1z-Rld"/>
+                <constraint firstItem="zE9-nb-krc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ven-0O-bjN"/>
+                <constraint firstItem="bj1-Xe-j4k" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="WlF-jB-Nce"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bj1-Xe-j4k" secondAttribute="trailing" id="ZqY-4T-qqN"/>
+                <constraint firstItem="bj1-Xe-j4k" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="64" id="bng-0c-m1A"/>
+                <constraint firstItem="ANT-Vq-2Ru" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="d4i-Rk-ej4"/>
+                <constraint firstItem="wzU-Lk-1Sc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="f46-2N-dIr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zE9-nb-krc" secondAttribute="trailing" id="hl4-Sy-3PB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wzU-Lk-1Sc" secondAttribute="trailing" id="lPk-AJ-nh6"/>
+                <constraint firstItem="bj1-Xe-j4k" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zOX-pY-h9Z"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="50.724637681159422" y="96.428571428571431"/>
+        </view>
+    </objects>
+</document>

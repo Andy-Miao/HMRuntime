@@ -15,6 +15,8 @@
 		AD7E93B622CDE3F600D90068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93B522CDE3F600D90068 /* main.m */; };
 		AD7E93C022CDE3F600D90068 /* HMRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93BF22CDE3F600D90068 /* HMRuntimeTests.m */; };
 		AD7E93CB22CDE3F600D90068 /* HMRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93CA22CDE3F600D90068 /* HMRuntimeUITests.m */; };
+		AD7E93DE22CDFD9000D90068 /* HMMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7E93DD22CDFD9000D90068 /* HMMessageViewController.xib */; };
+		AD7E941E22CE0A0300D90068 /* HMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		AD7E93C622CDE3F600D90068 /* HMRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7E93CA22CDE3F600D90068 /* HMRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRuntimeUITests.m; sourceTree = "<group>"; };
 		AD7E93CC22CDE3F600D90068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E93DD22CDFD9000D90068 /* HMMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMMessageViewController.xib; sourceTree = "<group>"; };
+		AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageViewController.m; sourceTree = "<group>"; };
+		AD7E941D22CE0A0300D90068 /* HMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +106,8 @@
 		AD7E93A522CDE3F400D90068 /* HMRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				AD7E93A622CDE3F400D90068 /* AppDelegate.h */,
-				AD7E93A722CDE3F400D90068 /* AppDelegate.m */,
-				AD7E93A922CDE3F400D90068 /* ViewController.h */,
-				AD7E93AA22CDE3F400D90068 /* ViewController.m */,
-				AD7E93AC22CDE3F500D90068 /* Main.storyboard */,
-				AD7E93AF22CDE3F600D90068 /* Assets.xcassets */,
-				AD7E93B122CDE3F600D90068 /* LaunchScreen.storyboard */,
-				AD7E93B422CDE3F600D90068 /* Info.plist */,
-				AD7E93B522CDE3F600D90068 /* main.m */,
+				AD7E941722CE039F00D90068 /* Others */,
+				AD7E941622CE039100D90068 /* Main  */,
 			);
 			path = HMRuntime;
 			sourceTree = "<group>";
@@ -131,6 +129,65 @@
 			);
 			path = HMRuntimeUITests;
 			sourceTree = "<group>";
+		};
+		AD7E93D922CDF8B700D90068 /* runtime消息机制 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E941D22CE0A0300D90068 /* HMMessageViewController.h */,
+				AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */,
+				AD7E93DD22CDFD9000D90068 /* HMMessageViewController.xib */,
+			);
+			path = "runtime消息机制";
+			sourceTree = "<group>";
+		};
+		AD7E941522CE037F00D90068 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD7E941622CE039100D90068 /* Main  */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E941922CE03F900D90068 /* Models */,
+				AD7E941822CE03BF00D90068 /* Controllers */,
+				AD7E941522CE037F00D90068 /* Views */,
+				AD7E93A622CDE3F400D90068 /* AppDelegate.h */,
+				AD7E93A722CDE3F400D90068 /* AppDelegate.m */,
+				AD7E93A922CDE3F400D90068 /* ViewController.h */,
+				AD7E93AA22CDE3F400D90068 /* ViewController.m */,
+			);
+			path = "Main ";
+			sourceTree = "<group>";
+		};
+		AD7E941722CE039F00D90068 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E93AC22CDE3F500D90068 /* Main.storyboard */,
+				AD7E93AF22CDE3F600D90068 /* Assets.xcassets */,
+				AD7E93B122CDE3F600D90068 /* LaunchScreen.storyboard */,
+				AD7E93B422CDE3F600D90068 /* Info.plist */,
+				AD7E93B522CDE3F600D90068 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		AD7E941822CE03BF00D90068 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E93D922CDF8B700D90068 /* runtime消息机制 */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD7E941922CE03F900D90068 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = "HMRuntime/Main /Models";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -236,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7E93B322CDE3F600D90068 /* LaunchScreen.storyboard in Resources */,
+				AD7E93DE22CDFD9000D90068 /* HMMessageViewController.xib in Resources */,
 				AD7E93B022CDE3F600D90068 /* Assets.xcassets in Resources */,
 				AD7E93AE22CDE3F500D90068 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7E93AB22CDE3F400D90068 /* ViewController.m in Sources */,
+				AD7E941E22CE0A0300D90068 /* HMMessageViewController.m in Sources */,
 				AD7E93B622CDE3F600D90068 /* main.m in Sources */,
 				AD7E93A822CDE3F400D90068 /* AppDelegate.m in Sources */,
 			);
@@ -436,7 +495,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MN64P49U6;
 				INFOPLIST_FILE = HMRuntime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +513,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MN64P49U6;
 				INFOPLIST_FILE = HMRuntime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

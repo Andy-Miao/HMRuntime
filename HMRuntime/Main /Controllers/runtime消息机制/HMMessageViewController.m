@@ -21,8 +21,4 @@
     // Do any additional setup after loading the view.
 }
 
-
-- (IBAction)modelToDic:(id)sender {
-}
-
 @end

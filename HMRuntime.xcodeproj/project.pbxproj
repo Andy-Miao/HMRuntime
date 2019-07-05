@@ -15,7 +15,6 @@
 		AD7E93B622CDE3F600D90068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93B522CDE3F600D90068 /* main.m */; };
 		AD7E93C022CDE3F600D90068 /* HMRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93BF22CDE3F600D90068 /* HMRuntimeTests.m */; };
 		AD7E93CB22CDE3F600D90068 /* HMRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93CA22CDE3F600D90068 /* HMRuntimeUITests.m */; };
-		AD7E93DE22CDFD9000D90068 /* HMMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7E93DD22CDFD9000D90068 /* HMMessageViewController.xib */; };
 		AD7E941E22CE0A0300D90068 /* HMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		AD7E93C622CDE3F600D90068 /* HMRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7E93CA22CDE3F600D90068 /* HMRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRuntimeUITests.m; sourceTree = "<group>"; };
 		AD7E93CC22CDE3F600D90068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD7E93DD22CDFD9000D90068 /* HMMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMMessageViewController.xib; sourceTree = "<group>"; };
 		AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageViewController.m; sourceTree = "<group>"; };
 		AD7E941D22CE0A0300D90068 /* HMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,7 +133,6 @@
 			children = (
 				AD7E941D22CE0A0300D90068 /* HMMessageViewController.h */,
 				AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */,
-				AD7E93DD22CDFD9000D90068 /* HMMessageViewController.xib */,
 			);
 			path = "runtime消息机制";
 			sourceTree = "<group>";
@@ -293,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7E93B322CDE3F600D90068 /* LaunchScreen.storyboard in Resources */,
-				AD7E93DE22CDFD9000D90068 /* HMMessageViewController.xib in Resources */,
 				AD7E93B022CDE3F600D90068 /* Assets.xcassets in Resources */,
 				AD7E93AE22CDE3F500D90068 /* Main.storyboard in Resources */,
 			);

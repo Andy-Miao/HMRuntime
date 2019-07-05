@@ -6,9 +6,9 @@
 //  Copyright © 2019 humiao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HMBasisViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : HMBasisViewController
 
 
 @end

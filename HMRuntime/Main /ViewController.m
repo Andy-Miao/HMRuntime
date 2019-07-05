@@ -8,10 +8,9 @@
 
 #import "ViewController.h"
 #import "HMMessageViewController.h"
-
-#define CUREENT_SCREEN_SIZE     [[UIScreen mainScreen] bounds].size
-#define CUREENT_SCREEN_WIDTH    [[UIScreen mainScreen] bounds].size.width
-#define CUREENT_SCREEN_HEGHT    [[UIScreen mainScreen] bounds].size.height
+#import "HMExchangeMethodController.h"
+#import "HMAddAttributesViewController.h"
+#import "HMRuntimeDicViewController.h"
 
 static NSString *CELL_ID = @"UITableViewCell";
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
@@ -25,7 +24,7 @@ static NSString *CELL_ID = @"UITableViewCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"runtime详解";
     // Do any additional setup after loading the view.
     [self loadData];
     
@@ -33,7 +32,7 @@ static NSString *CELL_ID = @"UITableViewCell";
 }
 
 - (void)loadData {
-    _dataSource = @[@"runtime字典转模型"];
+    _dataSource = @[@"runtime消息机制", @"动态交换两个方法",@"动态加载属性",@"runtime字典转模型的三种情况"];
 }
 
 - (UITableView *)tableView {
@@ -63,11 +62,19 @@ static NSString *CELL_ID = @"UITableViewCell";
         case 0:
             vc = [HMMessageViewController new];
             break;
-            
+        case 1:
+            vc = [HMExchangeMethodController new];
+            break;
+        case 2:
+            vc = [HMAddAttributesViewController new];
+            break;
+        case 3:
+            vc = [HMRuntimeDicViewController new];
+            break;
         default:
             break;
     }
-    
-    [self presentViewController:vc animated:YES completion:nil];
+    vc.title = _dataSource[indexPath.row];
+    [self.navigationController pushViewController:vc  animated:YES];
 }
 @end

@@ -16,6 +16,26 @@
 		AD7E93C022CDE3F600D90068 /* HMRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93BF22CDE3F600D90068 /* HMRuntimeTests.m */; };
 		AD7E93CB22CDE3F600D90068 /* HMRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E93CA22CDE3F600D90068 /* HMRuntimeUITests.m */; };
 		AD7E941E22CE0A0300D90068 /* HMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */; };
+		AD7E942122CEF1DA00D90068 /* HMBasisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E942022CEF1DA00D90068 /* HMBasisViewController.m */; };
+		AD7E942522CF1E0B00D90068 /* HMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E942422CF1E0B00D90068 /* HMPerson.m */; };
+		AD7E942922CF6C9D00D90068 /* HMExchangeMethodController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E942822CF6C9D00D90068 /* HMExchangeMethodController.m */; };
+		AD7E942E22CF6CF700D90068 /* UIImage+Exchange.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E942D22CF6CF700D90068 /* UIImage+Exchange.m */; };
+		AD7E943222CF6EF800D90068 /* HMExchangeMethodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7E943122CF6EF800D90068 /* HMExchangeMethodController.xib */; };
+		AD7E943622CF759700D90068 /* HMAddAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E943522CF759700D90068 /* HMAddAttributesViewController.m */; };
+		AD7E943B22CF769000D90068 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E943A22CF769000D90068 /* NSObject+Property.m */; };
+		AD7E944022CF786600D90068 /* HMRuntimeDicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E943E22CF786600D90068 /* HMRuntimeDicViewController.m */; };
+		AD7E944122CF786600D90068 /* RuntimeDicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7E943F22CF786600D90068 /* RuntimeDicViewController.xib */; };
+		AD7E945522CF793300D90068 /* StatusItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E944322CF793300D90068 /* StatusItem2.m */; };
+		AD7E945622CF793300D90068 /* NSObject+Mod.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E944422CF793300D90068 /* NSObject+Mod.m */; };
+		AD7E945722CF793300D90068 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E944522CF793300D90068 /* User.m */; };
+		AD7E945822CF793300D90068 /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E944B22CF793300D90068 /* Array.m */; };
+		AD7E945922CF793300D90068 /* NSObject+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E944D22CF793300D90068 /* NSObject+Item.m */; };
+		AD7E945A22CF793300D90068 /* StatusItem3.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E944F22CF793300D90068 /* StatusItem3.m */; };
+		AD7E945B22CF793300D90068 /* StatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E945222CF793300D90068 /* StatusItem.m */; };
+		AD7E945C22CF793300D90068 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7E945322CF793300D90068 /* NSObject+Model.m */; };
+		AD7E946022CF7A2000D90068 /* status2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7E945D22CF7A2000D90068 /* status2.plist */; };
+		AD7E946122CF7A2000D90068 /* status3.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7E945E22CF7A2000D90068 /* status3.plist */; };
+		AD7E946222CF7A2000D90068 /* status1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7E945F22CF7A2000D90068 /* status1.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +74,41 @@
 		AD7E93CC22CDE3F600D90068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7E941C22CE0A0300D90068 /* HMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageViewController.m; sourceTree = "<group>"; };
 		AD7E941D22CE0A0300D90068 /* HMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageViewController.h; sourceTree = "<group>"; };
+		AD7E941F22CEF1DA00D90068 /* HMBasisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMBasisViewController.h; sourceTree = "<group>"; };
+		AD7E942022CEF1DA00D90068 /* HMBasisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBasisViewController.m; sourceTree = "<group>"; };
+		AD7E942322CF1E0B00D90068 /* HMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPerson.h; sourceTree = "<group>"; };
+		AD7E942422CF1E0B00D90068 /* HMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMPerson.m; sourceTree = "<group>"; };
+		AD7E942722CF6C9D00D90068 /* HMExchangeMethodController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMExchangeMethodController.h; sourceTree = "<group>"; };
+		AD7E942822CF6C9D00D90068 /* HMExchangeMethodController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMExchangeMethodController.m; sourceTree = "<group>"; };
+		AD7E942C22CF6CF700D90068 /* UIImage+Exchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Exchange.h"; sourceTree = "<group>"; };
+		AD7E942D22CF6CF700D90068 /* UIImage+Exchange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Exchange.m"; sourceTree = "<group>"; };
+		AD7E943122CF6EF800D90068 /* HMExchangeMethodController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMExchangeMethodController.xib; sourceTree = "<group>"; };
+		AD7E943422CF759700D90068 /* HMAddAttributesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAddAttributesViewController.h; sourceTree = "<group>"; };
+		AD7E943522CF759700D90068 /* HMAddAttributesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAddAttributesViewController.m; sourceTree = "<group>"; };
+		AD7E943922CF769000D90068 /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		AD7E943A22CF769000D90068 /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		AD7E943D22CF786600D90068 /* HMRuntimeDicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRuntimeDicViewController.h; sourceTree = "<group>"; };
+		AD7E943E22CF786600D90068 /* HMRuntimeDicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRuntimeDicViewController.m; sourceTree = "<group>"; };
+		AD7E943F22CF786600D90068 /* RuntimeDicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuntimeDicViewController.xib; sourceTree = "<group>"; };
+		AD7E944322CF793300D90068 /* StatusItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem2.m; sourceTree = "<group>"; };
+		AD7E944422CF793300D90068 /* NSObject+Mod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Mod.m"; sourceTree = "<group>"; };
+		AD7E944522CF793300D90068 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		AD7E944622CF793300D90068 /* StatusItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem2.h; sourceTree = "<group>"; };
+		AD7E944722CF793300D90068 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AD7E944822CF793300D90068 /* NSObject+Mod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mod.h"; sourceTree = "<group>"; };
+		AD7E944A22CF793300D90068 /* NSObject+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Item.h"; sourceTree = "<group>"; };
+		AD7E944B22CF793300D90068 /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
+		AD7E944C22CF793300D90068 /* StatusItem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem3.h; sourceTree = "<group>"; };
+		AD7E944D22CF793300D90068 /* NSObject+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Item.m"; sourceTree = "<group>"; };
+		AD7E944E22CF793300D90068 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		AD7E944F22CF793300D90068 /* StatusItem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem3.m; sourceTree = "<group>"; };
+		AD7E945122CF793300D90068 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		AD7E945222CF793300D90068 /* StatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem.m; sourceTree = "<group>"; };
+		AD7E945322CF793300D90068 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		AD7E945422CF793300D90068 /* StatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem.h; sourceTree = "<group>"; };
+		AD7E945D22CF7A2000D90068 /* status2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status2.plist; sourceTree = "<group>"; };
+		AD7E945E22CF7A2000D90068 /* status3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status3.plist; sourceTree = "<group>"; };
+		AD7E945F22CF7A2000D90068 /* status1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status1.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +209,8 @@
 				AD7E93A722CDE3F400D90068 /* AppDelegate.m */,
 				AD7E93A922CDE3F400D90068 /* ViewController.h */,
 				AD7E93AA22CDE3F400D90068 /* ViewController.m */,
+				AD7E941F22CEF1DA00D90068 /* HMBasisViewController.h */,
+				AD7E942022CEF1DA00D90068 /* HMBasisViewController.m */,
 			);
 			path = "Main ";
 			sourceTree = "<group>";
@@ -166,6 +223,9 @@
 				AD7E93B122CDE3F600D90068 /* LaunchScreen.storyboard */,
 				AD7E93B422CDE3F600D90068 /* Info.plist */,
 				AD7E93B522CDE3F600D90068 /* main.m */,
+				AD7E945F22CF7A2000D90068 /* status1.plist */,
+				AD7E945D22CF7A2000D90068 /* status2.plist */,
+				AD7E945E22CF7A2000D90068 /* status3.plist */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -173,6 +233,9 @@
 		AD7E941822CE03BF00D90068 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD7E943C22CF784500D90068 /* Runtime字典转模型的三种情况 */,
+				AD7E943322CF758200D90068 /* 动态加载属性 */,
+				AD7E942622CF6C3F00D90068 /* 动态交换两个方法 */,
 				AD7E93D922CDF8B700D90068 /* runtime消息机制 */,
 			);
 			path = Controllers;
@@ -181,10 +244,109 @@
 		AD7E941922CE03F900D90068 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD7E945022CF793300D90068 /* runtime字典转模型1 */,
+				AD7E944222CF793300D90068 /* runtime字典转模型2 */,
+				AD7E944922CF793300D90068 /* runtime字典转模型3 */,
+				AD7E943822CF761400D90068 /* 动态加载属性 */,
+				AD7E943722CF75D300D90068 /* 动态交换两个方法 */,
+				AD7E942222CF1DE600D90068 /* runtime消息机制 */,
 			);
 			name = Models;
 			path = "HMRuntime/Main /Models";
 			sourceTree = SOURCE_ROOT;
+		};
+		AD7E942222CF1DE600D90068 /* runtime消息机制 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E942322CF1E0B00D90068 /* HMPerson.h */,
+				AD7E942422CF1E0B00D90068 /* HMPerson.m */,
+			);
+			path = "runtime消息机制";
+			sourceTree = "<group>";
+		};
+		AD7E942622CF6C3F00D90068 /* 动态交换两个方法 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E942722CF6C9D00D90068 /* HMExchangeMethodController.h */,
+				AD7E942822CF6C9D00D90068 /* HMExchangeMethodController.m */,
+				AD7E943122CF6EF800D90068 /* HMExchangeMethodController.xib */,
+			);
+			path = "动态交换两个方法";
+			sourceTree = "<group>";
+		};
+		AD7E943322CF758200D90068 /* 动态加载属性 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E943422CF759700D90068 /* HMAddAttributesViewController.h */,
+				AD7E943522CF759700D90068 /* HMAddAttributesViewController.m */,
+			);
+			path = "动态加载属性";
+			sourceTree = "<group>";
+		};
+		AD7E943722CF75D300D90068 /* 动态交换两个方法 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E942C22CF6CF700D90068 /* UIImage+Exchange.h */,
+				AD7E942D22CF6CF700D90068 /* UIImage+Exchange.m */,
+			);
+			path = "动态交换两个方法";
+			sourceTree = "<group>";
+		};
+		AD7E943822CF761400D90068 /* 动态加载属性 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E943922CF769000D90068 /* NSObject+Property.h */,
+				AD7E943A22CF769000D90068 /* NSObject+Property.m */,
+			);
+			path = "动态加载属性";
+			sourceTree = "<group>";
+		};
+		AD7E943C22CF784500D90068 /* Runtime字典转模型的三种情况 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E943D22CF786600D90068 /* HMRuntimeDicViewController.h */,
+				AD7E943E22CF786600D90068 /* HMRuntimeDicViewController.m */,
+				AD7E943F22CF786600D90068 /* RuntimeDicViewController.xib */,
+			);
+			path = "Runtime字典转模型的三种情况";
+			sourceTree = "<group>";
+		};
+		AD7E944222CF793300D90068 /* runtime字典转模型2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E944822CF793300D90068 /* NSObject+Mod.h */,
+				AD7E944422CF793300D90068 /* NSObject+Mod.m */,
+				AD7E944622CF793300D90068 /* StatusItem2.h */,
+				AD7E944322CF793300D90068 /* StatusItem2.m */,
+				AD7E944722CF793300D90068 /* User.h */,
+				AD7E944522CF793300D90068 /* User.m */,
+			);
+			path = "runtime字典转模型2";
+			sourceTree = "<group>";
+		};
+		AD7E944922CF793300D90068 /* runtime字典转模型3 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E944A22CF793300D90068 /* NSObject+Item.h */,
+				AD7E944D22CF793300D90068 /* NSObject+Item.m */,
+				AD7E944E22CF793300D90068 /* Array.h */,
+				AD7E944B22CF793300D90068 /* Array.m */,
+				AD7E944C22CF793300D90068 /* StatusItem3.h */,
+				AD7E944F22CF793300D90068 /* StatusItem3.m */,
+			);
+			path = "runtime字典转模型3";
+			sourceTree = "<group>";
+		};
+		AD7E945022CF793300D90068 /* runtime字典转模型1 */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E945122CF793300D90068 /* NSObject+Model.h */,
+				AD7E945322CF793300D90068 /* NSObject+Model.m */,
+				AD7E945422CF793300D90068 /* StatusItem.h */,
+				AD7E945222CF793300D90068 /* StatusItem.m */,
+			);
+			path = "runtime字典转模型1";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -289,7 +451,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7E946122CF7A2000D90068 /* status3.plist in Resources */,
+				AD7E943222CF6EF800D90068 /* HMExchangeMethodController.xib in Resources */,
+				AD7E944122CF786600D90068 /* RuntimeDicViewController.xib in Resources */,
 				AD7E93B322CDE3F600D90068 /* LaunchScreen.storyboard in Resources */,
+				AD7E946222CF7A2000D90068 /* status1.plist in Resources */,
+				AD7E946022CF7A2000D90068 /* status2.plist in Resources */,
 				AD7E93B022CDE3F600D90068 /* Assets.xcassets in Resources */,
 				AD7E93AE22CDE3F500D90068 /* Main.storyboard in Resources */,
 			);
@@ -316,10 +483,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7E945B22CF793300D90068 /* StatusItem.m in Sources */,
+				AD7E945C22CF793300D90068 /* NSObject+Model.m in Sources */,
+				AD7E944022CF786600D90068 /* HMRuntimeDicViewController.m in Sources */,
+				AD7E945522CF793300D90068 /* StatusItem2.m in Sources */,
+				AD7E942922CF6C9D00D90068 /* HMExchangeMethodController.m in Sources */,
 				AD7E93AB22CDE3F400D90068 /* ViewController.m in Sources */,
+				AD7E942522CF1E0B00D90068 /* HMPerson.m in Sources */,
 				AD7E941E22CE0A0300D90068 /* HMMessageViewController.m in Sources */,
+				AD7E943622CF759700D90068 /* HMAddAttributesViewController.m in Sources */,
+				AD7E945A22CF793300D90068 /* StatusItem3.m in Sources */,
+				AD7E942E22CF6CF700D90068 /* UIImage+Exchange.m in Sources */,
+				AD7E945722CF793300D90068 /* User.m in Sources */,
 				AD7E93B622CDE3F600D90068 /* main.m in Sources */,
 				AD7E93A822CDE3F400D90068 /* AppDelegate.m in Sources */,
+				AD7E943B22CF769000D90068 /* NSObject+Property.m in Sources */,
+				AD7E945922CF793300D90068 /* NSObject+Item.m in Sources */,
+				AD7E945822CF793300D90068 /* Array.m in Sources */,
+				AD7E945622CF793300D90068 /* NSObject+Mod.m in Sources */,
+				AD7E942122CEF1DA00D90068 /* HMBasisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +674,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MN64P49U6;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/HMRuntime/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,6 +693,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MN64P49U6;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/HMRuntime/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -34,7 +34,7 @@ static NSString *CELL_ID = @"UITableViewCell";
 }
 
 - (void)loadData {
-    _dataSource = @[@"runtime消息机制", @"动态交换两个方法",@"动态加载属性",@"runtime字典转模型的三种情况",@"动态加载方法"];
+    _dataSource = @[@"runtime消息机制", @"动态交换两个方法",@"动态加载属性",@"runtime字典转模型的三种情况",@"动态加载方法",@"自动归档解档"];
 }
 
 - (UITableView *)tableView {
@@ -79,9 +79,6 @@ static NSString *CELL_ID = @"UITableViewCell";
         case 5:
             vc = [HMArchiveSolutionViewController new];
             break;
-//        case 6:
-//            vc = [HMArchiveSolutionViewController new];
-//            break;
         default:
             break;
     }

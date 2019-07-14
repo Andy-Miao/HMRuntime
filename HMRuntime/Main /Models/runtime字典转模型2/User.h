@@ -16,4 +16,10 @@
 
 @property (nonatomic, assign) NSInteger mbrank;
 
+@property (nonatomic, strong) NSNumber *age;
+
+@property (nonatomic, copy) NSString *sex;
+
+@property (nonatomic, strong) NSString *uid;
+
 @end

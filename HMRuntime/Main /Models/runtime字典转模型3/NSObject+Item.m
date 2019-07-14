@@ -45,6 +45,34 @@
         // 根据成员属性名去字典中查找对应的value
         id value = dict[key];
         
+        // 获取成员属性类型
+        NSString *ivarType = [NSString stringWithUTF8String:ivar_getTypeEncoding(ivar)];
+        
+        //--------------------------- <#我是分割线#> ------------------------------//
+        // 二级转换,字典中还有字典,也需要把对应字典转换成模型
+        //
+        // 判断下value,是不是字典
+        if ([value isKindOfClass:[NSDictionary class]] && ![ivarType containsString:@"NS"]) { //  是字典对象,并且属性名对应类型是自定义类型
+            // user User
+            
+            // 处理类型字符串 @\"User\" -> User
+            ivarType = [ivarType stringByReplacingOccurrencesOfString:@"@" withString:@""];
+            ivarType = [ivarType stringByReplacingOccurrencesOfString:@"\"" withString:@""];
+            // 自定义对象,并且值是字典
+            // value:user字典 -> User模型
+            // 获取模型(user)类对象
+            Class modalClass = NSClassFromString(ivarType);
+            
+            // 字典转模型
+            if (modalClass) {
+                // 字典转模型 user
+                value = [modalClass modelWithDict3:value];
+            }
+            
+            // 字典,user
+            //            NSLog(@"%@",key);
+        }
+        
         
         //--------------------------- <#我是分割线#> ------------------------------//
         //

@@ -36,6 +36,11 @@
 		AD7E946022CF7A2000D90068 /* status2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7E945D22CF7A2000D90068 /* status2.plist */; };
 		AD7E946122CF7A2000D90068 /* status3.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7E945E22CF7A2000D90068 /* status3.plist */; };
 		AD7E946222CF7A2000D90068 /* status1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7E945F22CF7A2000D90068 /* status1.plist */; };
+		ADB538C022DAD921003CB012 /* HMAddMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB538BF22DAD921003CB012 /* HMAddMethodViewController.m */; };
+		ADB538C322DAD9C1003CB012 /* HMRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB538C222DAD9C1003CB012 /* HMRobot.m */; };
+		ADB538C722DB1BD4003CB012 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB538C622DB1BD4003CB012 /* Movie.m */; };
+		ADB538CB22DB1F79003CB012 /* HMArchiveSolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB538CA22DB1F79003CB012 /* HMArchiveSolutionViewController.m */; };
+		ADB538CE22DB22B4003CB012 /* UIButton+Count.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB538CD22DB22B4003CB012 /* UIButton+Count.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,16 @@
 		AD7E945D22CF7A2000D90068 /* status2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status2.plist; sourceTree = "<group>"; };
 		AD7E945E22CF7A2000D90068 /* status3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status3.plist; sourceTree = "<group>"; };
 		AD7E945F22CF7A2000D90068 /* status1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status1.plist; sourceTree = "<group>"; };
+		ADB538BE22DAD921003CB012 /* HMAddMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAddMethodViewController.h; sourceTree = "<group>"; };
+		ADB538BF22DAD921003CB012 /* HMAddMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAddMethodViewController.m; sourceTree = "<group>"; };
+		ADB538C122DAD9C1003CB012 /* HMRobot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRobot.h; sourceTree = "<group>"; };
+		ADB538C222DAD9C1003CB012 /* HMRobot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRobot.m; sourceTree = "<group>"; };
+		ADB538C522DB1BD4003CB012 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		ADB538C622DB1BD4003CB012 /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		ADB538C922DB1F79003CB012 /* HMArchiveSolutionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMArchiveSolutionViewController.h; sourceTree = "<group>"; };
+		ADB538CA22DB1F79003CB012 /* HMArchiveSolutionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMArchiveSolutionViewController.m; sourceTree = "<group>"; };
+		ADB538CC22DB22B4003CB012 /* UIButton+Count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Count.h"; sourceTree = "<group>"; };
+		ADB538CD22DB22B4003CB012 /* UIButton+Count.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Count.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +248,8 @@
 		AD7E941822CE03BF00D90068 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ADB538C822DB1F36003CB012 /* 自动归档解档 */,
+				ADB538BC22DAD8CD003CB012 /* 动态添加方法 */,
 				AD7E943C22CF784500D90068 /* Runtime字典转模型的三种情况 */,
 				AD7E943322CF758200D90068 /* 动态加载属性 */,
 				AD7E942622CF6C3F00D90068 /* 动态交换两个方法 */,
@@ -244,6 +261,8 @@
 		AD7E941922CE03F900D90068 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ADB538C422DB132C003CB012 /* 自动归档解档 */,
+				ADB538BD22DAD8E7003CB012 /* 动态添加方法 */,
 				AD7E945022CF793300D90068 /* runtime字典转模型1 */,
 				AD7E944222CF793300D90068 /* runtime字典转模型2 */,
 				AD7E944922CF793300D90068 /* runtime字典转模型3 */,
@@ -346,6 +365,44 @@
 				AD7E945222CF793300D90068 /* StatusItem.m */,
 			);
 			path = "runtime字典转模型1";
+			sourceTree = "<group>";
+		};
+		ADB538BC22DAD8CD003CB012 /* 动态添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB538BE22DAD921003CB012 /* HMAddMethodViewController.h */,
+				ADB538BF22DAD921003CB012 /* HMAddMethodViewController.m */,
+			);
+			path = "动态添加方法";
+			sourceTree = "<group>";
+		};
+		ADB538BD22DAD8E7003CB012 /* 动态添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB538C122DAD9C1003CB012 /* HMRobot.h */,
+				ADB538C222DAD9C1003CB012 /* HMRobot.m */,
+				ADB538CC22DB22B4003CB012 /* UIButton+Count.h */,
+				ADB538CD22DB22B4003CB012 /* UIButton+Count.m */,
+			);
+			path = "动态添加方法";
+			sourceTree = "<group>";
+		};
+		ADB538C422DB132C003CB012 /* 自动归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB538C522DB1BD4003CB012 /* Movie.h */,
+				ADB538C622DB1BD4003CB012 /* Movie.m */,
+			);
+			path = "自动归档解档";
+			sourceTree = "<group>";
+		};
+		ADB538C822DB1F36003CB012 /* 自动归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB538C922DB1F79003CB012 /* HMArchiveSolutionViewController.h */,
+				ADB538CA22DB1F79003CB012 /* HMArchiveSolutionViewController.m */,
+			);
+			path = "自动归档解档";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,9 +540,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB538C722DB1BD4003CB012 /* Movie.m in Sources */,
 				AD7E945B22CF793300D90068 /* StatusItem.m in Sources */,
 				AD7E945C22CF793300D90068 /* NSObject+Model.m in Sources */,
 				AD7E944022CF786600D90068 /* HMRuntimeDicViewController.m in Sources */,
+				ADB538C322DAD9C1003CB012 /* HMRobot.m in Sources */,
 				AD7E945522CF793300D90068 /* StatusItem2.m in Sources */,
 				AD7E942922CF6C9D00D90068 /* HMExchangeMethodController.m in Sources */,
 				AD7E93AB22CDE3F400D90068 /* ViewController.m in Sources */,
@@ -495,10 +554,13 @@
 				AD7E945A22CF793300D90068 /* StatusItem3.m in Sources */,
 				AD7E942E22CF6CF700D90068 /* UIImage+Exchange.m in Sources */,
 				AD7E945722CF793300D90068 /* User.m in Sources */,
+				ADB538C022DAD921003CB012 /* HMAddMethodViewController.m in Sources */,
 				AD7E93B622CDE3F600D90068 /* main.m in Sources */,
 				AD7E93A822CDE3F400D90068 /* AppDelegate.m in Sources */,
+				ADB538CE22DB22B4003CB012 /* UIButton+Count.m in Sources */,
 				AD7E943B22CF769000D90068 /* NSObject+Property.m in Sources */,
 				AD7E945922CF793300D90068 /* NSObject+Item.m in Sources */,
+				ADB538CB22DB1F79003CB012 /* HMArchiveSolutionViewController.m in Sources */,
 				AD7E945822CF793300D90068 /* Array.m in Sources */,
 				AD7E945622CF793300D90068 /* NSObject+Mod.m in Sources */,
 				AD7E942122CEF1DA00D90068 /* HMBasisViewController.m in Sources */,

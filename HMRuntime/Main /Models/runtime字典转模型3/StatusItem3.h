@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "NSObject+Item.h"
-
-@interface StatusItem3 : NSObject <ModelDelegate>
+//1. 如果想要当前类可以实现归档与反归档，需要遵守一个协议NSCoding
+@interface StatusItem3 : NSObject <NSCoding, ModelDelegate>
 
 /**
  runtime 字典转模型-->

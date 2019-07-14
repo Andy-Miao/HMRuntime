@@ -21,4 +21,8 @@
     return objc_msgSend([HMPerson class], @selector(alloc));
 }
 
+- (void)personRun {
+    NSLog(@"生命在于运动");
+}
+
 @end

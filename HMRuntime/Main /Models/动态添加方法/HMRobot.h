@@ -1,8 +1,8 @@
 //
-//  HMPerson.h
+//  HMRobot.h
 //  HMRuntime
 //
-//  Created by humiao on 2019/7/5.
+//  Created by humiao on 2019/7/14.
 //  Copyright © 2019 humiao. All rights reserved.
 //
 
@@ -10,13 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HMPerson : NSObject
+@interface HMRobot : NSObject
 
-- (HMPerson *)eat;
-
-- (HMPerson *)run:(int)meter;
-
-- (void)personRun;
+- (void)rebotRun;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -19,7 +19,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self runtimeMessage];
     
-    [self runtimeMessageRun];
+//    [self runtimeMessageRun];
 }
 
 - (void)runtimeMessage {
@@ -36,8 +36,10 @@
      //id objc = [NSObject alloc];
     HMPerson *person = objc_msgSend(objc_getClass("HMPerson"), sel_registerName("alloc"));
      //objc = [objc init];
-    objc_msgSend(person, @selector(eat));
-    objc_msgSend(person, @selector(run:),100);
+    ((void (*)(id, SEL))objc_msgSend)(person, @selector(eat));
+    
+    void (*hm_msgsend)(id, SEL, int) = (void (*)(id, SEL, int))objc_msgSend;
+    hm_msgsend(person, @selector(run:),100);
     
 }
 
